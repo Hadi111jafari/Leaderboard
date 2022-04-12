@@ -1,0 +1,56 @@
+header h1 {
+  margin: 50px;
+}
+
+#container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 100px;
+}
+
+#RSR {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#RSR h2 {
+  margin-right: 20px;
+}
+
+#refresh-btn {
+  margin-top: 20px;
+  height: 30px;
+}
+
+#name {
+  margin-bottom: 10px;
+  height: 25px;
+}
+
+#score {
+  display: block;
+  margin-bottom: 10px;
+  height: 25px;
+}
+
+#score-list {
+  border: 2px solid black;
+  margin-top: 10px;
+}
+
+.score {
+  display: flex;
+  align-items: center;
+  padding: 0 1.2rem;
+}
+
+.score-content {
+  margin: 10px;
+  font-weight: bold;
+}
+
+.score:nth-child(even) {
+  background: #ddd;
+}

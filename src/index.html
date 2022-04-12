@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Leaderboard</title>
+  </head>
+  <body>
+    <header>
+      <h1>Leaderboard</h1>
+    </header>
+    
+    <section id="container">
+      <div id="scores">
+        <div id="RSR">
+          <h2>Recent scores</h2>
+          <button type="button" id="refresh-btn">Refresh</button>
+        </div>
+        <div id="score-list"></div>
+      </div>
+      <div id="add-score">
+        <h2>Add your score</h2>
+        <form id="form">
+          <input
+            type="text"
+            placeholder="Your name"
+            id="name"
+            class="form-input"
+            required
+          />
+          <input
+            type="number"
+            placeholder="Your score"
+            id="score"
+            class="form-input"
+            required
+          />
+          <button type="submit" value="Submit" id="submit-btn">submit</button>
+        </form>
+      </div>
+    </section>
+
+  </body>
+</html>
