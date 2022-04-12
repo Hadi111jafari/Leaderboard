@@ -10,3 +10,4 @@ scoresData.forEach((score) => {
   `;
   scoresList.innerHTML += sC;
 });
+    
