@@ -1,4 +1,4 @@
-import "./style.css";
+import './style.css';
 import scoresData from './modules/scoreData.js';
 
 scoresData.forEach((score) => {
@@ -10,4 +10,3 @@ scoresData.forEach((score) => {
   `;
   scoresList.innerHTML += sC;
 });
-    
