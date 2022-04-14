@@ -38,6 +38,8 @@ header h1 {
 #score-list {
   border: 2px solid black;
   margin-top: 10px;
+  overflow: scroll;
+  height: 500px;
 }
 
 .score {
