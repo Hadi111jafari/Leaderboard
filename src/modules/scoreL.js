@@ -1,2 +1,2 @@
-const scoresList = document.getElementById("score-list");
+const scoresList = document.getElementById('score-list');
 export default scoresList;
